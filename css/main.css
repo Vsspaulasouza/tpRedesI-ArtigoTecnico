@@ -4,16 +4,19 @@ html {
   font-family: "Newsreader", serif;
   font-size: 62.5%;
   line-height: 62.5%;
+  background-color: #beb9a5;
 }
 
 body {
   display: grid;
-  grid-template-columns: 2fr minmax(200px, 350px);
+  grid-template:
+    "cabecalho cabecalho"
+    "principal lateral"
+    / 2fr minmax(200px, 350px);
 }
 
 .cabecalho {
-  grid-column: 1/3;
-  grid-row: 1/2;
+  grid-area: cabecalho;
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -41,8 +44,7 @@ body {
 }
 
 .barraLateral {
-  grid-column: 2/3;
-  grid-row: 2/3;
+  grid-area: lateral;
   padding: 10px 0px;
   width: 100%;
   background-color: #beb9a5;
@@ -73,8 +75,7 @@ body {
 }
 
 .parteCentral {
-  grid-column: 1/2;
-  grid-row: 2/3;
+  grid-area: principal;
   background-color: #beb9a5;
   padding: 40px 3vw;
   color: #020a09;
@@ -115,4 +116,18 @@ body {
 }
 .parteCentral .link:hover {
   color: #020a09;
+}
+
+@media (max-width: 1000px) {
+  body {
+    display: grid;
+    grid-template:
+      "cabecalho cabecalho"
+      "lateral vazio"
+      "principal principal"
+      / minmax(200px, 350px) 1fr;
+  }
+  .barraLateral .menu li a:hover {
+    box-shadow: -1px 1px #223b3f, -3px 3px #223b3f, -2px 2px #223b3f;
+  }
 }
