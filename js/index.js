@@ -10,4 +10,4 @@ function rolarPagina(event) {
   });
 }
 
-subtitulos.forEach((sub) => addEventListener("click", rolarPagina));
+subtitulos.forEach((sub) => sub.addEventListener("click", rolarPagina));
