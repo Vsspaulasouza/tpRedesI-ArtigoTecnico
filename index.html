@@ -22,11 +22,55 @@
     </header>
     <aside class="barraLateral">
         <ul class="menu">
+            <li><a href="#descricao" class="subs">Descrição do funcionamento</a></li>
+            <li><a href="#vantagens" class="subs">Vantagens</a></li>
+            <li><a href="#desvantagens" class="subs">Desvantagens</a></li>
+            <li><a href="#historia" class="subs">História</a></li>
+            <li><a href="#principais" class="subs">Principais aplicações</a></li>
             <li><a href="#ieee" class="subs">Padrão IEEE</a></li>
+            <li><a href="#tecnologia" class="subs">Tecnologia mais atual</a></li>
             <li><a href="#referencias" class="subs">Referências</a></li>
         </ul>
     </aside>
     <main class="parteCentral">
+        <h2 id="descricao">Descrição do funcionamento</h2>
+        <p>O bluetooth é uma tecnologia de comunicação sem fio, onde os dados são transmitidos através de ondas de rádio. Ela permite a troca de dados entre diversos dispositivos físicos, como: celulares, impressoras, computadores, fones de ouvido entre diversos outros.</p>
+        <p>Como seu alcance é curto e só permite a comunicação entre dispositivos próximos, seu consumo de energia é bem baixo. Para que seja possível atender aos mais variados tipos de dispositivos, o alcance máximo do Bluetooth foi dividido em três classes:</p>
+        <p>Classe 1: potência máxima de 100 mW (miliwatt), alcance de até 100 metros;
+            <br>Classe 2: potência máxima de 2,5 mW, alcance de até 10 metros;
+            <br>Classe 3: potência máxima de 1 mW, alcance de até 1 metro.
+        </p>
+        <p>Para que não ocorra interferência  quando múltiplos dispositivos estão conectados o bluetooth utiliza o salto de Frequência</p>
+        
+        <h2 id="vantagens">Vantagens</h2>
+        <p>Transmissão de dados sem fio
+            <br>Por ter um baixo consumo de energia, funciona bem em dispositivos a bateria
+            <br>Por ser uma tecnologia barata, pode ser empregada em dispositivos de baixo custo
+            <br>Gerência transmissões de voz e dados simultaneamente
+        </p>
+        
+        <h2 id="desvantagens">Desvantagens</h2>
+        <p>Curto alcance
+           <br>Com  rede cabeada pode-se conseguir uma banda muito maior
+           <br>Protocolos de emparelhamento incompatíveis entre dispositivo
+        </p>
+
+        <h2 id="historia">História</h2>
+        <p>O nome Bluetooth tem origem no Rei Dinamarquês Harald Blatand, principal responsável pela união dos povos então inimigos da região onde hoje se situam Noruega, Suécia e Dinamarca. A tradução do nome Blatand para o inglês é Bluetooth. Como o propósito da tecnologia é promover a colaboração entre diferentes setores industriais, tais como computação, telefonia móvel e mercado automotivo, similar aos feitos do monarca, seu nome pareceu apropriado para a nova tecnologia.</p>
+        <p>A história do Bluetooth começa por volta do ano de 1994, quando a empresa Ericsson, em busca de um diferencial, procurou investir no desenvolvimento de uma forma de comunicação entre aparelhos celulares e seus respectivos acessórios. Ela deveria utilizar sinais de rádio que não fossem caros, ultrapassando a idéia da rede por cabos. Esse estudo resultou na criação de um sistema de rádio de curto alcance chamado de MClink, que utilizava uma baixa potência, e, portanto, não consumia tanta energia.</p>
+        <p>Com a possibilidade de uma implementação de um sistema relativamente fácil e barato, a Ericcson percebeu que a idéia do MClink poderia realmente dar certo, ampliando seus investimentos.</p>
+        <p>No ano de 1997, o promissor projeto atraiu a atenção de outras empresas, que poderiam também usufruir desse mecanismo de comunicação em redes. Por esse motivo, em 1998, houve a criação do Bluetooth SIG (Special Interest Group). As empresas que participaram da sua criação eram consideradas gigantes nas suas áreas (desenvolvimento de chips e unidades de processamento, telecomunicações e produção de computadores), dando uma dimensão de valor a tecnologia que estava sendo aperfeiçoada. São elas: Intel, Ericcson, IBM, Toshiba e Nokia. Com tantos setores diferentes influenciando o processo de aperfeiçoamento da tecnologia, permitiu-se a interoperabilidade e o uso dela nos mais variados tipos de aparelhos, não se restringindo somente aos telefones celulares.</p>
+        <p>O Bluetooth Special Interest Group se traduziu numa organização privada e sem fins lucrativos. Ela não fabrica e nem vende produtos com a tecnologia Bluetooth, apenas trabalha continuamente no desenvolvimento da tecnologia de redes sem a utilização de fios para implementação desta nos produtos fabricados pelos membros do grupo. </p>    
+    
+        <h2 id="principais">Principais aplicações</h2>
+        <p>O Bluetooth é uma tecnologia de comunicação sem fio barata, de curto alcance e com baixa taxa de transferência, portanto é ideal para comunicações com baixo volume de dados, por exemplo:
+           <br>Controle sem fio e comunicação entre celulares e fones de ouvido sem fio ou sistemas viva voz para carros. Essa foi uma das mais antigas aplicações da tecnologia a se tornar popular;
+           <br>Comunicação sem fio entre PCs e dispositivos de entrada e saída, como mouse, teclados e impressoras;
+           <br>Consoles de videogames da nova geração – Wii U, PlayStation 3 e 4, Xbox One S e Xbox One X usam Bluetooth para seus respectivos controles sem fio;
+           <br>Substituição de dispositivos seriais tradicionais com fio em equipamentos de teste, receptores GPS, equipamentos médicos, leitores de código de barras e dispositivos de controle de tráfego;
+        </p>
+
+        
         <h2 id="ieee">Padrão IEEE</h2>
         <p>Em 1998 foi formado o grupo SIG(Special Interest Group) que era formado por empresas que tinham interesse na tecnologia Bluetooth. Já em 1999, foi lançada a primeira definição do protocolo Bluetooth IEEE 802.15.1. O objetivo da tecnologia era ser de baixo custo e ideal para transmissões sem fio a curtas distâncias. E após o lançamento das normas IEEE as empresas começaram a lançar os seus produtos com o Bluetooth presente.</p>
         <h3>Topologias</h3>
@@ -36,12 +80,33 @@
         <h3>Profiles</h3>
         <p>O grupo SIG(Special Interest Group) do Bluetooth é dividido em áreas de pesquisa técnica. Dentro dessas áreas técnicas são dispostos profiles. Cada profile define uma seleção de mensagens e procedimentos que são especificados no Bluetooth como funcionalidades. Assim, são definidos quatro profiles de uso frequente GAP, SDAP, SPP e GOEP.</p>
         <p>O GAP (Generic Access Profile) define os procedimentos genéricos - trata da descoberta e gerenciamento de conexão em dispositivos e níveis de segurança.
-        <br>SDAP (Service Discovery Application Profile)  - define os procedimentos para uma aplicação de um dispositivo descobrir os serviços em outro dispositivo. 
-        <br> SPP (Serial Port Profile) - onde são definidos os requisitos para os dispositivos emularem conexões seriais utilizando RFCOMM entre dois dispositivos.
-        <br> GOEP (Generic Object Exchange Profile) -  que define os protocolos e procedimentos que serão utilizados pelas aplicações que precisarem utilizar troca de objetos, as possíveis aplicações seriam sincronização e transferência de arquivos.</p>
-        <p>Além disso, todos os profiles internos dependem destes profiles principais, e para que os profiles possam ser utilizados, ambos os dispositivos devem ter suas pilhas de protocolos implementando estes profiles.</p>
+            <br>SDAP (Service Discovery Application Profile)  - define os procedimentos para uma aplicação de um dispositivo descobrir os serviços em outro dispositivo. 
+            <br> SPP (Serial Port Profile) - onde são definidos os requisitos para os dispositivos emularem conexões seriais utilizando RFCOMM entre dois dispositivos.
+            <br> GOEP (Generic Object Exchange Profile) -  que define os protocolos e procedimentos que serão utilizados pelas aplicações que precisarem utilizar troca de objetos, as possíveis aplicações seriam sincronização e transferência de arquivos.</p>
+            <p>Além disso, todos os profiles internos dependem destes profiles principais, e para que os profiles possam ser utilizados, ambos os dispositivos devem ter suas pilhas de protocolos implementando estes profiles.</p>
+        <h2 id="tecnologia">Tecnologia mais atual</h2>
+        <p>Atualmente, temos o Bluetooth 5.1 como uma boa versão mas que não adicionou tantas melhorias quando comparadas ao Bluetooth 5.0. Mas temos como exemplo dessas melhorias, melhor precisão no quesito de localização (por ter mais antenas) e um consumo de energia ainda menor do que na versão 5.0 da tecnologia.</p>
+        <p>Em breve teremos o Bluetooth 5.2, para o qual já foram anunciadas as seguintes melhorias, principalmente em questões de áudio:
+           <br>LE Audio e o Bluetooth Low Energy (BLE)
+           <br>Multi-Stream Audio - Transmissão de som simultânea
+           <br>Audio Sharing - Compartilhamento de áudio
+           <br>Enhanced Attribute Protocol (EATT) (reduz a latência)
+        </p>
+
         <h2 id="referencias">Referências</h2>
+        <p>ALMEIDA, Saori. Bluetooth 5 - Conheça as melhorias da conexão sobre versões anteriores: Solução wireless tem quase 30 anos, mas se mantém firme e constante no mercado. Mundo Conectado. 2020. Disponível em: <a href="https://mundoconectado.com.br/artigos/v/13913/bluetooth-5-conheca-as-melhorias-da-conexao-sobre-versoes-anteriores" class="link" target="_blank">mundoconectado.com.br</a> Acesso em: 17 ago. 2021.</p>
+
+        <p>BLUETOOTH. Bluetooth Technology Overview: LEARN ABOUT BLUETOOTH. Bluetooth Technology Website. Disponível em: <a href="https://www.bluetooth.com/learn-about-bluetooth/tech-overview/" class="link" target="_blank">www.bluetooth.com</a> Acesso em: 17 ago. 2021.</p>
+
+        <p>DIFFERENCES between Bluetooth 5.2 vs 5.1 vs 5.0: Comparison. Face Of It - The Tech Community. Disponível em: <a href="https://www.faceofit.com/bluetooth-5-2-vs-5-1-vs-5-0/" class="link" target="_blank">www.faceofit.com</a> Acesso em: 17 ago. 2021.</p>
+        
+        <p>DIFFERENCE between bluetooth 5 and bluetooth 5.1 | New features of bluetooth 5.1. RF Wireless World. Disponível em: <a href="https://www.rfwireless-world.com/Terminology/Bluetooth-5-vs-bluetooth-5-1.html" class="link" target="_blank">www.rfwireless-world.com</a> Acesso em: 17 ago. 2021.</p>
+        
+        <p>DIFFERENCES Between Bluetooth 5 vs 4.2. AmarInfoTech. Disponível em: <a href="https://www.amarinfotech.com/differences-comparisons-bluetooth-5-vs-4-2.html" class="link" target="_blank">www.amarinfotech.com</a> Acesso em: 17 ago. 2021.</p>
+        
         <p>Protótipo de Comunicação Bluetooth IEEE 802.15.1 em Tecnologia Móvel. Acesso em 17/08/2021.<a href="https://www.devmedia.com.br/prototipo-de-comunicacao-bluetooth-ieee-802-15-1-em-tecnologia-movel-parte-01/7808" class="link" target="_blank">www.devmedia.com.br</a></p>
+        
+        <p>VALERI, Vitor. O que é o Bluetooth 5.2?: O que mudará nos fones TWS e caixas Bluetooth?. Oficina da Net. 2020. Disponível em: <a href="https://www.oficinadanet.com.br/headphones/30351-o-que-e-o-bluetooth-5-2-o-que-mudara-nos-fones-tws-e-caixas-bluetooth" class="link" target="_blank">www.oficinadanet.com.br</a> Acesso em: 17 ago. 2021.</p>
     </main>
 
     <script src="js/index.js"></script>
