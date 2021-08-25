@@ -118,6 +118,10 @@ body {
   color: #020a09;
 }
 
+.parteCentral img {
+  max-width: 80%;
+}
+
 @media (max-width: 1000px) {
   body {
     display: grid;
@@ -129,5 +133,8 @@ body {
   }
   .barraLateral .menu li a:hover {
     box-shadow: -1px 1px #223b3f, -3px 3px #223b3f, -2px 2px #223b3f;
+  }
+  .parteCentral img {
+    max-width: 95%;
   }
 }
