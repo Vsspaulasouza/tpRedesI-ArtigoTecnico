@@ -20,8 +20,9 @@ Artigo técnico sobre o Bluetooth para disciplina de Redes I
  
 ## ⛏️ Consturído usando <a name = "built_using"></a>
  
--   [Tecnologia 1](https://endereco_da_tecnologia.com/) - Descrição da tecnologia
--   [Tecnologia 2](https://endereco_da_tecnologia.com/) - Descrição da tecnologia
+-   HTML
+-   CSS
+-   Javascript
  
 ## 🚀 Deploy <a name = "deployment"></a>
  
